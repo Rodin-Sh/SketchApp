@@ -39,7 +39,7 @@ def sketch(image):
   return cv.divide(grey, 255-blur, scale=256)
 
 st.title('Sketch Book')
-st.subtitle('An application that modifies images into sketches. Credit: John Fish.')
+st.write('An application that modifies images into sketches. Credit: John Fish.')
 uploaded_file = st.file_uploader("Choose a image file", type=["jpg", "png", "jpeg"])
 
 if uploaded_file is not None:
