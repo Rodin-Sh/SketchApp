@@ -3,7 +3,6 @@ from noise import pnoise2
 import cv2 as cv
 import numpy as np
 import random
-from matplotlib import pyplot as plt
 import streamlit as st
 
 # Using the pnoise2 function from noise PIP, noise is added to each pixel.
