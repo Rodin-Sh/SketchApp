@@ -38,8 +38,8 @@ def sketch(image):
   blur = cv.GaussianBlur(inv, (13,13), 0) #Default: 13
   return cv.divide(grey, 255-blur, scale=256)
 
-st.write("""# Sketchbook
-          **An application that modifies images into sketches**""")
+st.title('Sketch Book')
+st.subtitle('An application that modifies images into sketches. Credit: John Fish.')
 uploaded_file = st.file_uploader("Choose a image file", type=["jpg", "png", "jpeg"])
 
 if uploaded_file is not None:
