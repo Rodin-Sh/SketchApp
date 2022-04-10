@@ -1,7 +1,5 @@
-Pillow==7.1.2
-noise==1.2.2
-opencv-python==4.1.2.30
-opencv-contrib-python==4.1.2.30
-streamlit==1.8.1
-numpy==1.21.5
+Pillow
+noise
 opencv-python-headless
+streamlit
+nump
