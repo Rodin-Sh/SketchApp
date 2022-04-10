@@ -39,7 +39,7 @@ def sketch(image):
   return cv.divide(grey, 255-blur, scale=256)
 
 st.write("""# Sketchbook
-          ## An application that modifies images into sketches""")
+          **An application that modifies images into sketches**""")
 uploaded_file = st.file_uploader("Choose a image file", type=["jpg", "png", "jpeg"])
 
 if uploaded_file is not None:
